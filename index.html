@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Smart Mirror</title>
+  <meta name="author" content="Malhar Ujawane">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+<body>
+  <script src="js/script.js"></script>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col weather">
+        <h1 class="text-center">Syracuse, NY</h1>
+        <h1 class="text-center"><img src="" alt="Weather Icon" id="weatherIcon">
+ <span id="currentTemperature">5</span> &deg; C</h1>
+        <h2 class="text-center" id="weatherCondition">Thunderstorm</h2>
+        <div class="weatherTable">
+          <table class="table">
+            <h4 id="forecastTable">Forecast</h4>
+            <tr>
+              <td>9am</td>
+              <td><i class="fas fa-umbrella"></i></td>
+              <td>3 &deg; C</td>
+              <td>-2 &deg; C</td>
+            </tr>
+            <tr>
+              <td>9am</td>
+              <td><i class="fas fa-umbrella"></i></td>
+              <td>3 &deg; C</td>
+              <td>-2 &deg; C</td>
+            </tr>
+            <tr>
+              <td>9am</td>
+              <td><i class="fas fa-umbrella"></i></td>
+              <td>3 &deg; C</td>
+              <td>-2 &deg; C</td>
+            </tr>
+            <tr>
+              <td>9am</td>
+              <td><i class="fas fa-umbrella"></i></td>
+              <td>3 &deg; C</td>
+              <td>-2 &deg; C</td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+      <div class="col dateTime">
+      	<h1 id="currentTime">06:00am</h1>
+  			<h2 id="dateTime"></h2>
+        <div class="busSchedule">
+          <table class="table">
+            <h4 id="busTable">Bus Schedule</h4>
+          </table>
+        </div>
+      </div>
+  </div>
+</body>
+</html>

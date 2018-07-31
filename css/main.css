@@ -1,0 +1,35 @@
+
+/*UI Code*/
+body {
+	background-color: black;
+	font-family: arial;
+}
+
+.dateTime{
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.weather{
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.weatherIcon{
+	text-align: center;
+}
+.currentTemperature{
+	text-align: center;
+	margin-left: 50px;
+}
+.weatherCondition{
+	margin-bottom: 25px;
+}
+.weatherTable{
+}
+
+.weatherIcon{
+	color: white;
+}
